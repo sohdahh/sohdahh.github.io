@@ -2,8 +2,8 @@ body {
     font-family: Monaco;
     background-color: rgb(29,29,29);
     background-image: radial-gradient(white 1px, transparent 0);
-    background-size: 60px 60px;
-    background-position: 19px -19px;
+    background-size: 45px 45px;
+    background-position: 0,0;
     color: rgb(255, 255, 255);
 }
 
