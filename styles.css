@@ -1,14 +1,14 @@
+
 body {
     font-family: Monaco;
     background-color: rgb(80, 0, 0);
-    background-size: 45px 45px;
+    background-size: 40px 40px;
     background-position: 0,0;
     color: rgb(255, 255, 255);
     background-image: radial-gradient(rgb(255, 0, 0) 1px,  transparent 0%);
-    background-position: 0,0;
-    
+    background-position: 2,4;
 }
- 
+
 @font-face {
     font-family: 'Monaco';
     font-style: normal;
@@ -29,10 +29,13 @@ div.titlebar {
     border-radius: 8px;
     background-color: rgba(255, 34, 34, 0.45);
     margin-left: 8px;
-    width: fit-content;
-    display: flex;
     flex-direction: column;
+    min-height: 107px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
     align-items: center;
+    height: 100%; /* Ensure titlebar takes up full height of topbar */
 }
 
 div.error-content {
@@ -48,7 +51,7 @@ span.title {
 span.subtitle {
     color: white;
     font-size: 15px;
-    margin-top: 5px
+    margin-top: 5px;
 }
 
 ul.navbar {
@@ -80,4 +83,4 @@ hr {
     border-top: 4px solid rgb(172, 21, 21);
     margin: 1em 0;
     padding: 0;
-  }
+}
