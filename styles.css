@@ -1,6 +1,6 @@
 body {
     font-family: Monaco;
-    background-color: rgb(29,29,29);
+    background-color: rgb(80, 0, 0);
     background-size: 45px 45px;
     background-position: 0,0;
     color: rgb(255, 255, 255);
@@ -27,16 +27,16 @@ div.topbar {
 
 div.titlebar {
     border-radius: 8px;
-    background-color: rgba(34, 34, 34, 0.8);
+    background-color: rgba(255, 34, 34, 0.45);
     margin-left: 8px;
-    width: 25%;
+    width: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 div.error-content {
-    background-color: rgba(34, 34, 34, 0.8);
+    background-color: rgba(255, 34, 34, 0.45);
     text-align: center;
 }
 
@@ -53,7 +53,7 @@ span.subtitle {
 
 ul.navbar {
     border-radius: 8px;
-    background-color: rgba(34, 34, 34, 0.8);
+    background-color: rgba(255, 34, 34, 0.45);
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -70,5 +70,14 @@ ul.navbar li a {
 
 ul.navbar li a:hover {
     border-radius: 8px;
-    background-color: #555;
+    background-color: rgba(87, 10, 10, 0.45);
 }
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 4px solid rgb(172, 21, 21);
+    margin: 1em 0;
+    padding: 0;
+  }
