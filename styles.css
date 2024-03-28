@@ -1,12 +1,16 @@
 body {
+    --rand1: 0;
+    --rand2: 0;
     font-family: Monaco;
     background-color: rgb(29,29,29);
-    background-image: radial-gradient(white 1px, transparent 0);
     background-size: 45px 45px;
     background-position: 0,0;
     color: rgb(255, 255, 255);
+    background-image: radial-gradient(rgb(255, 0, 0) 1px,  transparent 0%);
+    background-position: var(--rand1), var(--rand2);
+    
 }
-
+ 
 @font-face {
     font-family: 'Monaco';
     font-style: normal;
