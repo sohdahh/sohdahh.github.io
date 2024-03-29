@@ -45,6 +45,7 @@ div.titlebar:hover {
 div.error-content {
     background-color: rgba(47, 47, 47, 0.45);
     text-align: center;
+    border-radius: 8px;
 }
 
 span.title {
