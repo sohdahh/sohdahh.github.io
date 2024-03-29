@@ -1,3 +1,7 @@
+::selection {
+    background: red;
+    color: black;
+}
 
 body {
     font-family: Monaco;
@@ -117,6 +121,16 @@ div.rsidecontent {
 }
 
 
+div.sidecontent {
+    padding-right: 8px;
+    width: 33%;
+}
+
+div.maincontent2 {
+    padding-right: 8px;
+    width: 66%;
+}
+
 span.contenttitle {
     background-color: rgba(47, 47, 47, 0.45);
     border-radius: 8px;
@@ -125,4 +139,14 @@ span.contenttitle {
     margin-bottom: 4px;
     color: white;
     font-size: 35px;
+}
+
+div.bottom {
+    text-align: center;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    height:20px;
+    width:100%;
+    background-color: rgba(47, 47, 47, 0.45);
 }
