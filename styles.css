@@ -90,3 +90,39 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
+div.contentwrapper {
+    display: flex;
+}
+
+div.content {
+    background-color: rgba(47, 47, 47, 0.45);
+    border-radius: 8px;
+    margin: auto;
+}
+
+div.lsidecontent {
+    padding-right: 8px;
+    width: 20%;
+}
+
+div.maincontent {
+    width: 60%;
+}
+
+
+div.rsidecontent {
+    padding-left: 8px;
+    width: 20%;
+}
+
+
+span.contenttitle {
+    background-color: rgba(47, 47, 47, 0.45);
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    margin-bottom: 4px;
+    color: white;
+    font-size: 35px;
+}
